@@ -8,4 +8,9 @@ class Resource
 	{
 		return [];
 	}
+
+	public function books()
+	{
+		return range(1, 5);
+	}
 }
